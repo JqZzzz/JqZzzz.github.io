@@ -1,6 +1,6 @@
----
+![image](https://github.com/JqZzzz/JqZzzz.github.io/assets/107914162/23276340-e3f0-4ed0-845d-369f41c2dd6c)---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "What can i say jiji out"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,11 +9,19 @@ redirect_from:
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
+A Schnorr Signatrue
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Schnorr is a digital signature scheme proposed by the cryptographer Claus-Peter Schnorr in 1989. It is based on the discrete logarithm problem and offers strong security and efficiency.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+The basic idea of the Schnorr signature scheme is to perform computations between the signer's private key and the message to generate a digital signature, which is then publicly disclosed along with the message. Anyone can use the signer's public key to verify the validity of the signature. The Schnorr signature scheme has the following characteristics:
+
+Security: The Schnorr signature scheme relies on the hardness of the discrete logarithm problem, providing robust security that makes it difficult for attackers to forge signatures or recover the signer's private key.
+
+Simplicity: Schnorr signatures have relatively short lengths, and the computational complexity for both signing and verification is low, making it efficient for practical applications.
+
+Composability: The Schnorr signature scheme supports the linear combination of signatures, enabling multiple signatures to be merged into a single signature, reducing storage and transmission overhead.
+
+The Schnorr signature scheme has found widespread applications in the field of cryptography and has been adopted by various cryptographic protocols and systems. For example, the Schnorr signature algorithm is used in Bitcoin as the Schnorr Signature scheme. It provides an efficient and secure solution in the realm of digital signatures.
 
 Getting started
 ======
